@@ -1,5 +1,4 @@
 # CompilersLab3556
-This Folder Consist Of Following Programs.......
 
 **ifelse** --->for given "if" statement doesnt have a corresponding "else" statement then add an empty "else{}" statement.
 
@@ -23,14 +22,20 @@ This Folder Consist Of Following Programs.......
 /*for c program*/
 
 lex filename.l
+
 yacc -d filename.y
+
 gcc lex.yy.c y.tab.c
+
 ./a.out
 
 
 /*for c++ program*/
 
 lex filename.l
+
 yacc -d filename.y
+
 g++ lex.yy.c y.tab.c -lfl
+
 ./a.out
